@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inputSec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  margin: 2rem auto;
+}
+#noteContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding: 2% 6%;
+}
+.noteCard {
+  width: 10rem;
+  height: 5rem;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 0.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#serchInput {
+  width: 80vw;
+  margin: 1rem 8%;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+}
+#inputElem {
+  width: 75%;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+}
+#addBtn {
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.editBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.delBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.submitBtn {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btnImg {
+  width: 100%;
+  height: 100%;
+}
